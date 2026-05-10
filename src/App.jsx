@@ -49,7 +49,7 @@ function App() {
       <FilterBar filter={filter} onFilterChange={setFilter} />
       <div className="flex flex-wrap gap-4 p-4">
         {visibleCards.length === 0 ? (
-          <p>還沒有收藏任何文章</p>
+          <p>還沒有收藏任何文章！</p>
         ) : (
           visibleCards.map((card) => (
             <Card
